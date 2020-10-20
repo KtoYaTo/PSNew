@@ -1,5 +1,10 @@
 package BE03.module01.lesson01_introduction;
 
+/**
+ * This commit for github download. Here I done module01/lesson01.
+ * save 3 for branch fix
+ * @author Gavrilov Vasily
+ */
 public class Introduction {
     public static void main(String[] args) {
         for (int i=0; i<5; i++) {
