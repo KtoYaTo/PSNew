@@ -12,8 +12,8 @@ package BE03.module01.lesson03_data_types;
 public class ProgramTask31 {
     public static void main(String[] args) {
         //Переменные числовые i,j,k,n,m
-        byte i = 127; // 32 bit - 4 byte    -128...127
-        short j = 255; // 16 bit - 2 byte
+        byte i = 127; // 8 bit - 1 byte    -128...127
+        short j = 255; // 16 bit - 2 byte  -32768 ... 32767
         byte k = (byte) (i - j);
         System.out.println(k);
     }
