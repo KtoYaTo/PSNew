@@ -14,7 +14,7 @@ package BE03.module01.lesson03_data_types;
  *        l. int x = 5;
  */
 
-class ProgramTask {
+class ProgramTask37 {
     double x1 = 0x123D;
     int x2 = 0x123F;
     short x3 = 7;
