@@ -23,16 +23,16 @@ public class ProgramTask39 {
         double d = 64.0;// 64 bit - 8 byte = 1.7e-308 ... 1.7e+308
 
         char c = 'D'; // 16 bit - 2 byte      = 'A', 'V' - хранит один знак
-        boolean bool = true; //8 bit - 2 byte = "true" or "false"
+        boolean bool = true; //8 bit - 1 byte = "true" or "false"
 
 
         // Reference - Ссылочные типы данных
         // String, Byte,  Short, Integer, Long, Double, Float, Boolean, Character, Boolean - это классы все классы содержат используют примитивные данные и хранят такое же количество данных.
         // кроме стринг где строка может хранить бесконечное текстовых данных.
-        // string, string1, short1 - это ссылка на объект храниться в STACK и содержат в себе различные методы класса
-        // "Текст" - это объект который храниться в памяти HEAP
+        // string, string1, short1 - это ссылка на объект хранится в STACK и содержат в себе различные методы класса
+        // "Текст" - это объект который хранится в памяти HEAP
         String string = "Текст";
-        String string1 = new String("Текст"); // Равнозначно с предыдущей записью!
+        String string1 = new String("Текст");
         // Нельзя сравнивать string и string1 через = или == т.к. это ссылки на раные объекты, для этого используется метод класса equals
         System.out.println(string == string1); // false
         String string2 = string1;
